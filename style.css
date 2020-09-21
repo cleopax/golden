@@ -10258,11 +10258,27 @@
   }
   /*# sourceMappingURL=bootstrap.css.map */
 
+  /* GLOBAL */
+
+  
+      
+
   /* NAVIGATION */
 
-.navigation {
-    padding: 12px 12px;
-    background: #0097e6;
+.info {
+    padding-top: 50px;
+}
+
+.info h2 {
+    color: #c69500;
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-style: italic;
+}
+
+.info h3 {
+    font-style: italic;
+    line-height: 100px;
 }
 
 .navigation a {
@@ -10283,3 +10299,110 @@
     display: inline-block;
   }
 
+.splash-inner {
+    text-align: center;
+    padding-top: 120px;
+}  
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+}
+
+.btn-one {
+    border-color: #c6950;
+    color: #fff;
+    text-align: center;
+    background-color: #c69500;
+ }
+
+  .info {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/31/Beech_trees_in_Mallard_Wood%2C_New_Forest_-_geograph.org.uk_-_779513.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #ffffff;
+    }
+ 
+.portfolio {
+    text-align: center;
+    background: lightgray;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+  .card img {
+    box-shadow: 2px 2px 5px #444;
+    width: 400%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 400px;
+    overflow: hidden; 
+}
+.card-deck {
+    margin: 25px 25px;
+}
+.card {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.portfolio p {
+    font-style: italic;
+}
+
+.service {
+    text-align: center;
+    padding-top: 96px; 
+    padding-bottom: 96px;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.icons tr {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.icons td {
+    font-size: 60px;
+    background: black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.icons td a {
+    color: #fff;
+}
+
+.icons td .fab {
+    line-height: 60px;
+}
+
+svg {
+    color: rgb(181, 184, 11);
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
